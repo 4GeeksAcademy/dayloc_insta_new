@@ -1,0 +1,87 @@
+.b1{
+  background: rgb(0, 0, 0);
+  
+  *{
+    box-sizing: border-box;
+  }
+  *::after,::before{
+    box-sizing: border-box;
+  }
+  .container{
+    position: absolute;
+    margin-left: 40%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 410px;
+    height: auto;
+    padding: 2px;
+    background-color: aliceblue;
+
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    align-items: center;
+    
+    
+  }
+  .photo{
+   display: flex;
+   flex-direction: row;
+    margin-top: 25px;
+     width: 100%;
+     height: 150px;
+
+  }
+  .bajofoto{
+     display: flex;
+
+    margin-top: 5px;
+  }
+  #cora,#mensaje{
+    width: 23px;
+    height: 23px;
+  }
+  .flag{
+    
+    margin-left: 275px;
+    align-items: end;
+    justify-content: end;
+  }
+  
+  .tt5{
+    margin-top: 7px;
+  }
+#bajoicons{
+  font-size: x-small;
+  margin-top: 30px;
+}
+.parrafo2{
+  font-family: 'Courier New', Courier, monospace;
+}
+.parrafo1{
+  font-size: large ;
+}
+.rigo{
+  display: flex;
+  flex-direction: row;
+}
+.doble{
+  font-size: small;
+  height: 15px;
+  margin-bottom: 20px;
+ 
+ align-items: center;
+ justify-content: center;
+
+}
+.puntos{
+  align-self: flex-end;
+  margin-left: 270px;
+}
